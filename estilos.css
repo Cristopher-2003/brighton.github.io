@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
 
 
 *{
@@ -7,7 +7,7 @@
     box-sizing: border-box;
 }
 body{
-    font-family: 'Rubik', sans-serif;
+    font-family: 'Merriweather', serif;
 }
 .contenedor-fichajes{
     width: 100%;
@@ -29,13 +29,15 @@ body{
     padding: 2px 5px;
     display: flex;
     align-items: center;
-    gap: 7px;
+    justify-content: space-between;
 }
 .btn-seguir label{
     color: #fff;
     font-size: 11px;
 }
-
+.icon-star{
+    width: 25%;
+}
 
 /*PARTE DONDE ESTA LOS TITULOS Y EL LOGO DEL BRIGHTON*/
 .contenido_titulos_logo_brighton{
@@ -76,11 +78,11 @@ body{
 
 }
 .bri{
-    font-size: 94px;
+    font-size: 87px;
     color: #9696967a;
     font-weight: bold;
     position: absolute;
-    right: 26px;
+    right: 0;
     letter-spacing: 2px;
     bottom: -42px;
     z-index: 0;
