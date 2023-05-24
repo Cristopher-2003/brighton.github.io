@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Rubik', sans-serif;
+}
+.contenedor-fichajes{
+    width: 100%;
+    background-color: rgb(42, 42, 42);
+}
+.contenido-fichajes-noticias{
+    width: 85%;
+    margin: 0 auto;
+    padding-top: 20px;
+    overflow: hidden;
+}
+.contenido-superior-nav_fichajes{
+    display: flex;
+    justify-content: space-between;
+}
+.btn-seguir{
+    border: 2px solid #fff;
+    background-color: rgba(0, 255, 255, 0);
+    padding: 2px 5px;
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+.btn-seguir label{
+    color: #fff;
+    font-size: 11px;
+}
+
+
+/*PARTE DONDE ESTA LOS TITULOS Y EL LOGO DEL BRIGHTON*/
+.contenido_titulos_logo_brighton{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: space-between;
+}
+.textos_logos_fichajes{
+    color: #fff;
+}
+.title_noticias{
+    font-size: 15px;
+}
+.brighton_noticias{
+    font-size: 30px;
+}
+.logo_fichajes_inferior{
+    display: flex;
+    align-items: center;
+    margin-top: 7px;
+
+}
+.img_premier{
+    width: 20%;
+}
+.img_bandera{
+    width: 17%;
+}
+.logo_brighton{
+    width: 20%;
+    z-index: 100;
+}
+.img_brighton{
+    width: 100%;
+
+}
+.bri{
+    font-size: 94px;
+    color: #9696967a;
+    font-weight: bold;
+    position: absolute;
+    right: 26px;
+    letter-spacing: 2px;
+    bottom: -42px;
+    z-index: 0;
+}
